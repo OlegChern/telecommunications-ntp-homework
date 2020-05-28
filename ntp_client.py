@@ -9,7 +9,7 @@ class NtpClient:
     # NTP requires sending time in seconds passed from the 1st January 1900
     _format_difference = (datetime.date(1970, 1, 1) - datetime.date(1900, 1, 1)).days * 24 * 3600
 
-    def __init__(self, ntp_server="pool.ntp.org", server_port=123, waiting_time=5):
+    def __init__(self, ntp_server, server_port, waiting_time=5):
         self.ServerAddress = ntp_server
         self.ServerPort = server_port
         self.WaitingTime = waiting_time
