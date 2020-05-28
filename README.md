@@ -2,8 +2,9 @@
 In order to get the accurate time using NTP protocol execute file ntp.py.
 
 ```
-Usage: A simple NTP client which will print accurate time. [-h] [-a ADDRESS]
-                                                           [-p PORT] [-w WAIT]
+Usage: python ntp.py [-h] [-a ADDRESS] [-p PORT] [-w WAIT]
+
+A simple NTP client which will print accurate time.
 
 optional arguments:
   -h, --help            show this help message and exit
